@@ -1,0 +1,109 @@
+<%-include("partials/header.ejs")-%>
+
+<div id="layoutSidenav_content">
+    <main>
+        <div class="container-fluid px-4">
+            <h1 class="mt-4">PATIENT INFORMATION REQUESTS</h1>
+            
+            <button style="background-color: aqua; border-radius: 5px; border: 1px aqua; align-self: flex-end;">NEW REQUEST</button>
+
+            <div class="card mb-4">
+               
+                <div class="card-body">
+                    <table id="datatablesSimple">
+                        <thead>
+                            <tr>
+                                <th>Patient ID</th>
+                                <th>Name</th>
+                                <th>Prev Hospital</th>
+                                <th>Request Validation</th>
+                                <th>Patient authorization</th>
+                                <th>status</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>Patient ID</th>
+                                <th>Name</th>
+                                <th>Prev Hospital</th>
+                                <th>Request validation</th>
+                                <th>Patient authorization</th>
+                                <th>status</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td>4387395</td>
+                                <td>YUSUPH MANZI</td>
+                                <td>Aga khan</td>
+                                <td><span class="badge badge-pill badge-secondary">Pending</span></td>
+                                <td><span class="badge badge-pill badge-secondary">Pending</span></td>
+                                <td><span class="badge badge-pill badge-secondary">Pending</span></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>4387395</td>
+                                <td>JUMA MGUNDA</td>
+                                <td>Ocean Road</td>
+                                <td><span class="btn-icon icofont-ui-edit"><i class="fa-solid fa-check"></i></span></td>
+                                <td><span class="btn-icon icofont-ui-edit"><i class="fa-solid fa-check"></i></span></td>
+                                <td><span class="badge badge-success">Success</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>4387395</td>
+                                <td>FISTON MAYELE</td>
+                                <td>Regency</td>
+                                <td><span class="btn-icon icofont-ui-edit"><i class="fa-solid fa-check"></i></span></td>
+                                <td><span class="btn-icon icofont-ui-edit"><i class="fa-solid fa-circle-xmark"></i></span></td>
+                                
+                                <td><span class="badge badge-pill badge-danger">Declined</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>4387395</td>
+                                <td>ALLY OMARI</td>
+                                <td>Ocean ROad</td>
+                                <td><span class="btn-icon icofont-ui-edit"><i class="fa-solid fa-check"></i></span></td>
+                                <td><span class="btn-icon icofont-ui-edit"><i class="fa-solid fa-check"></i></span></td>
+                                <td><span class="badge badge-success">Success</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>4387395</td>
+                                <td>IBRAHIM MAHIOUS</td>
+                                <td>Mnazi mmoja</td>
+                                <td><span class="btn-icon icofont-ui-edit"><i class="fa-solid fa-check"></i></span></td>
+                                <td><span class="badge badge-pill badge-secondary">Pending</span></td>
+                                <td><span class="badge badge-pill badge-secondary">Pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>4387395</td>
+                                <td>JEAN BALEKE</td>
+                                <td>Kitengule</td>
+                                <td><span class="btn-icon icofont-ui-edit"><i class="fa-solid fa-circle-xmark"></i></span></td>
+                                <td><span class="btn-icon icofont-ui-edit"><i class="fa-solid fa-check"></i></span></td>
+                                <td><span class="badge badge-pill badge-danger">Declined</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+<script src="assets/demo/chart-area-demo.js"></script>
+<script src="assets/demo/chart-bar-demo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+<script src="js/datatables-simple-demo.js"></script>
+<script src="https://kit.fontawesome.com/e25ffec345.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
